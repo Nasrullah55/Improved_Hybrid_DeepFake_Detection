@@ -83,7 +83,7 @@ The overall workflow of the proposed framework consists of the following stages:
 10. Grad-CAM visualization
 11. Performance analysis
 
-> **📌 Placeholder:** A detailed workflow diagram (`workflow.png`) will be included in the `images/` directory after repository completion.
+> ** Placeholder:** A detailed workflow diagram (`workflow.png`) will be included in the `images/` directory after repository completion.
 
 ---
 
