@@ -45,15 +45,12 @@ Improved-Hybrid-DeepFake-Detection/
 │   ├── 02_In_Domain_Evaluation.ipynb
 │   ├── 03_Cross_Domain_Evaluation.ipynb
 │   └── 04_GradCAM_Visualization.ipynb
-│
-├── models/
-│   └── best_model.keras
-│
-├── images/
+│  
+├── Figures/
 │
 ├── results/
 │
-├── docs/
+├── Documentation/
 │   ├── Project_Documentation.md
 │   ├── Model_Architecture.md
 │   ├── Dataset_Description.md
@@ -66,7 +63,6 @@ Improved-Hybrid-DeepFake-Detection/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
-└── .gitignore
 ```
 
 ---
