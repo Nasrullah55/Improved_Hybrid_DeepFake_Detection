@@ -29,8 +29,8 @@ The combined training dataset contains **30,000 facial images**, equally distrib
 - Dataset Name: 10000 Real Vs Fake Faces (StyleGAN3)
 - Source: Kaggle
 - Total Images: 20,000
-- Real Images: 15,000
-- Fake Images: 15,000
+- Real Images: 10,000
+- Fake Images: 10,000
 
 **Dataset Link**
 
