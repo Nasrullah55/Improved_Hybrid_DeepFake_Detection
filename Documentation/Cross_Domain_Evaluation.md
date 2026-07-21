@@ -92,5 +92,5 @@ The inclusion of cross-domain testing addresses one of the major challenges in d
 For additional details, refer to:
 
 - `docs/Training_Strategy.md`
-- `docs/Evaluation_Methodology.md`
+- `docs/In_Domain_Evaluation.md`
 - `docs/GradCAM.md`
