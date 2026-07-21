@@ -174,6 +174,6 @@ For additional implementation details, readers are encouraged to consult the fol
 - Documentation/Project_Documentation.md`
 - `Documentation/Dataset_Description.md`
 - `Documentation/Training_Strategy.md`
-- `Documentation/Evaluation_Methodology.md`
+- `Documentation/Cross_Domain_Evluation.md`
 - `Documentation/GradCAM.md`
-- `Documentation/Reproducibility_Guide.md`
+- `Documentation/In_Domain_Evaluation.md`
