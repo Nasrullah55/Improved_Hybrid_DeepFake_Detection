@@ -43,8 +43,8 @@ The combined training dataset contains **30,000 facial images**, equally distrib
 | Property | Value |
 |----------|-------|
 | Total Images | 30,000 |
-| Real Images | 20,000 |
-| Fake Images | 20,000 |
+| Real Images | 15,000 |
+| Fake Images | 15,000 |
 | Classes | 2 |
 | Task | Binary Classification |
 
