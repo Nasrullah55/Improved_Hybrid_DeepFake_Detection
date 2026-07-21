@@ -325,3 +325,152 @@ A detailed reproducibility guide is available in:
 ```text
 docs/Reproducibility_Guide.md
 ```
+
+---
+
+# Experimental Results
+
+The proposed Improved Hybrid DeepFake Detection framework was evaluated through a series of experiments designed to assess both classification performance and generalization capability. The evaluation protocol consists of in-domain testing using the held-out test set from the training dataset and cross-domain testing on an independent dataset to examine robustness against distribution shifts.
+
+The evaluation includes multiple quantitative performance metrics, including classification accuracy, precision, recall, F1-score, and the Area Under the Receiver Operating Characteristic Curve (AUC-ROC). In addition, qualitative analysis is performed using Grad-CAM to visualize the image regions influencing the model's predictions.
+
+The detailed numerical results are provided in the `results/` directory.
+
+```text
+results/
+├── in_domain_metrics.csv
+├── cross_domain_metrics.csv
+└── prediction_examples.csv
+```
+
+The figures presented in the repository include:
+
+| Figure | Description |
+|----------|-------------|
+| architecture.png | Proposed model architecture |
+| workflow.png | Overall experimental workflow |
+| training_accuracy.png | Training and validation accuracy |
+| loss_curve.png | Training and validation loss |
+| confusion_matrix.png | Confusion matrix |
+| roc_curve.png | Receiver Operating Characteristic (ROC) curve |
+| gradcam1.png | Grad-CAM visualization (Example 1) |
+| gradcam2.png | Grad-CAM visualization (Example 2) |
+
+The visualizations are located in the `images/` directory and are generated directly from the experimental notebooks.
+
+---
+
+# Repository Documentation
+
+In addition to the source code, this repository includes detailed technical documentation describing the implementation and experimental methodology. The documentation is intended to facilitate reproducibility and to provide sufficient detail for researchers interested in extending or adapting the proposed framework.
+
+The documentation is organized as follows:
+
+```text
+docs/
+├── Project_Documentation.md
+├── Model_Architecture.md
+├── Dataset_Description.md
+├── Training_Strategy.md
+├── Evaluation_Methodology.md
+├── GradCAM.md
+└── Reproducibility_Guide.md
+```
+
+Each document focuses on a specific aspect of the project, allowing readers to understand the methodology without navigating through the source code.
+
+---
+
+# Research Paper
+
+This repository accompanies the research work describing the proposed Improved Hybrid DeepFake Detection framework.
+
+**Paper Title**
+
+> Placeholder
+
+**Journal**
+
+> Placeholder
+
+**DOI**
+
+> Placeholder
+
+**Preprint**
+
+> Placeholder
+
+Once the article becomes publicly available, the corresponding publication details will be added here.
+
+---
+
+# Citation
+
+If you use this repository in your research, please cite the associated publication.
+
+Citation information is provided in:
+
+```text
+CITATION.cff
+```
+
+A BibTeX entry will be included after publication.
+
+---
+
+# Repository Status
+
+The repository is under active development.
+
+Future updates may include:
+
+- Additional benchmark datasets
+- Evaluation on newly released generative models
+- Additional explainability analyses
+- Improved pretrained model checkpoints
+- Performance comparisons with recently published methods
+
+Major updates will be documented through versioned releases.
+
+---
+
+# License
+
+This project is distributed under the terms of the license provided in the `LICENSE` file.
+
+Users are encouraged to review the license before using, modifying, or redistributing the source code.
+
+---
+
+# Acknowledgements
+
+The authors gratefully acknowledge the developers and maintainers of the open-source libraries used throughout this work, particularly TensorFlow, Keras, OpenCV, NumPy, Pandas, Matplotlib, and Scikit-learn.
+
+The authors also acknowledge the providers of the publicly available datasets used for training and evaluation. Their contributions have been invaluable in advancing research on deepfake detection.
+
+---
+
+# Contact
+
+For questions, suggestions, or collaboration opportunities, please contact:
+
+**Name**
+
+> Placeholder
+
+**Email**
+
+> Placeholder
+
+**Institution**
+
+> Placeholder
+
+**GitHub**
+
+> Placeholder
+
+---
+
+The repository will continue to evolve as additional experiments, benchmark evaluations, and research outcomes become available. Updates will be reflected in both the documentation and the accompanying notebooks to ensure that the implementation remains transparent, reproducible, and consistent with the associated publication.
