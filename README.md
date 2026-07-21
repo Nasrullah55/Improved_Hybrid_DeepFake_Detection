@@ -113,3 +113,215 @@ Comprehensive technical documentation is available in the `docs/` directory.
 | GradCAM.md | Explainability using Grad-CAM |
 | Reproducibility_Guide.md | Instructions for reproducing the experiments |
 
+---
+
+# Proposed Model Architecture
+
+The proposed **Improved Hybrid DeepFake Detection (DFD)** framework is built upon a transfer learning strategy that combines the representational power of a pre-trained **VGG19** backbone with a customized convolutional classification head for binary image classification.
+
+The VGG19 network, pre-trained on the ImageNet dataset, serves as the feature extraction backbone. Instead of training a deep convolutional network from scratch, the proposed approach leverages previously learned visual representations while fine-tuning higher-level convolutional blocks to adapt to deepfake image detection.
+
+The customized classification head incorporates additional convolutional layers, batch normalization, max pooling, global average pooling, dense layers, dropout regularization, and a sigmoid output neuron to distinguish between authentic and manipulated facial images.
+
+This hybrid design enables the framework to learn both generic visual representations and task-specific discriminative features, thereby improving detection accuracy while maintaining strong generalization across unseen datasets.
+
+> **📌 Placeholder:** The complete architectural diagram is available in `images/architecture.png`.
+
+For a layer-by-layer explanation of the proposed network, please refer to:
+
+```text
+docs/Model_Architecture.md
+```
+
+---
+
+# Dataset
+
+The proposed framework was developed and evaluated using publicly available deepfake image datasets.
+
+The repository is organized so that datasets remain external to GitHub because of storage limitations and licensing restrictions.
+
+> **📌 Placeholder:** Dataset download links will be added after repository publication.
+
+Example:
+
+Dataset 1:
+```
+RVF-10K
+Link:
+```
+
+Dataset 2:
+```
+Cross-Domain Dataset
+Link:
+```
+
+The repository documentation explains:
+
+- Dataset organization
+- Directory structure
+- Class distribution
+- Training/Validation/Test split
+- Preprocessing methodology
+
+A detailed description is available in:
+
+```text
+docs/Dataset_Description.md
+```
+
+---
+
+# Experimental Pipeline
+
+The complete experimental pipeline consists of four independent notebooks.
+
+| Notebook | Description |
+|-----------|-------------|
+| 01_Model_Training.ipynb | Model construction and training |
+| 02_In_Domain_Evaluation.ipynb | Evaluation using the test split of the training dataset |
+| 03_Cross_Domain_Evaluation.ipynb | Generalization assessment on an unseen dataset |
+| 04_GradCAM_Visualization.ipynb | Explainability analysis using Grad-CAM |
+
+Each notebook is self-contained and can be executed independently after installing the required dependencies.
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Improved-Hybrid-DeepFake-Detection.git
+```
+
+Move into the project directory:
+
+```bash
+cd Improved-Hybrid-DeepFake-Detection
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# Requirements
+
+The implementation has been developed using Python and TensorFlow.
+
+Major dependencies include:
+
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- OpenCV
+- Pillow
+
+The complete list of dependencies is available in:
+
+```text
+requirements.txt
+```
+
+---
+
+# Running the Project
+
+The notebooks should be executed sequentially.
+
+### Step 1
+
+Train the proposed model.
+
+```
+01_Model_Training.ipynb
+```
+
+### Step 2
+
+Evaluate the trained model on the in-domain test dataset.
+
+```
+02_In_Domain_Evaluation.ipynb
+```
+
+### Step 3
+
+Perform cross-domain testing.
+
+```
+03_Cross_Domain_Evaluation.ipynb
+```
+
+### Step 4
+
+Generate Grad-CAM visualizations.
+
+```
+04_GradCAM_Visualization.ipynb
+```
+
+---
+
+# Trained Model
+
+The best-performing trained model is stored in:
+
+```text
+models/best_model.keras
+```
+
+This model can be directly loaded for inference without retraining.
+
+> **📌 Placeholder:** Future releases may include additional pretrained model checkpoints.
+
+---
+
+# Executable Notebook
+
+The complete executable implementation is also available on Kaggle.
+
+> **📌 Placeholder**
+
+Kaggle Notebook:
+
+```
+https://www.kaggle.com/....
+```
+
+The Kaggle version contains:
+
+- GPU-compatible implementation
+- Complete training pipeline
+- Saved checkpoints
+- Figures
+- Experimental outputs
+
+---
+
+# Reproducibility
+
+The repository has been organized to facilitate reproducible research.
+
+To reproduce the reported results:
+
+1. Download the datasets.
+2. Install all dependencies.
+3. Execute the notebooks in sequence.
+4. Use the provided random seeds.
+5. Evaluate using the supplied evaluation notebooks.
+
+A detailed reproducibility guide is available in:
+
+```text
+docs/Reproducibility_Guide.md
+```
