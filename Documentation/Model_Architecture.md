@@ -105,7 +105,7 @@ The proposed model is trained using the following configuration.
 |-----------|-------|
 | Optimizer | AdamW |
 | Loss Function | Binary Cross-Entropy |
-| Epochs | 22 |
+| Epochs | 35 |
 | Dropout Rate | 0.4 |
 | Backbone | VGG19 |
 | Transfer Learning | Yes |
@@ -171,9 +171,9 @@ Prediction
 
 For additional implementation details, readers are encouraged to consult the following documents:
 
-- `docs/Project_Documentation.md`
-- `docs/Dataset_Description.md`
-- `docs/Training_Strategy.md`
-- `docs/Evaluation_Methodology.md`
-- `docs/GradCAM.md`
-- `docs/Reproducibility_Guide.md`
+- Documentation/Project_Documentation.md`
+- `Documentation/Dataset_Description.md`
+- `Documentation/Training_Strategy.md`
+- `Documentation/Evaluation_Methodology.md`
+- `Documentation/GradCAM.md`
+- `Documentation/Reproducibility_Guide.md`
