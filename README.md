@@ -141,20 +141,23 @@ The proposed framework was developed and evaluated using publicly available deep
 
 The repository is organized so that datasets remain external to GitHub because of storage limitations and licensing restrictions.
 
-> **📌 Placeholder:** Dataset download links will be added after repository publication.
 
-Example:
+Training Datasets:
+```
+RVF-10K Dataset
+Link: https://www.kaggle.com/datasets/sachchitkunichetty/rvf10k
 
-Dataset 1:
-```
-RVF-10K
-Link:
+10000 Real Vs Fake Faces(StyleGAN3) Dataset
+Link: https://www.kaggle.com/datasets/troykueh/real-vs-fake-faces-stylegan3
 ```
 
-Dataset 2:
+Cross Domain Datasets:
 ```
-Cross-Domain Dataset
-Link:
+140K Real and Fake Faces Dataset
+Link: https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces
+
+Fake-Vs-Real-Faces (Hard) Dataset
+Link: https://www.kaggle.com/datasets/hamzaboulahia/hardfakevsrealfaces/data
 ```
 
 The repository documentation explains:
@@ -289,13 +292,15 @@ This model can be directly loaded for inference without retraining.
 # Executable Notebook
 
 The complete executable implementation is also available on Kaggle.
-
-> **📌 Placeholder**
-
-Kaggle Notebook:
-
 ```
-https://www.kaggle.com/....
+Kaggle Training Notebook Link: 
+
+Kaggle In Domain Testing Notebook Link:
+
+Kaggle Cross Domain Testing Notebook Link:
+
+Kaggle GRAD-CAM Notebook Link: 
+
 ```
 
 The Kaggle version contains:
