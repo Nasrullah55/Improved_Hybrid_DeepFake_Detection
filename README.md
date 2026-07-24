@@ -293,13 +293,13 @@ This model can be directly loaded for inference without retraining.
 
 The complete executable implementation is also available on Kaggle.
 ```
-Kaggle Training Notebook Link: 
+Kaggle Training Notebook Link: https://www.kaggle.com/code/nasrullahbaber/improved-hybrid-deepfake-detector-dfd
 
-Kaggle In Domain Testing Notebook Link:
+Kaggle In Domain Testing Notebook Link: https://www.kaggle.com/code/nasrullahbaber/improved-deepfake-02-in-domain-evaluation
 
-Kaggle Cross Domain Testing Notebook Link:
+Kaggle Cross Domain Testing Notebook Link: https://www.kaggle.com/code/nasrullahbaber/improved-deepfake-03-cross-domain-evaluation
 
-Kaggle GRAD-CAM Notebook Link: 
+Kaggle GRAD-CAM Notebook Link: https://www.kaggle.com/code/nasrullahbaber/improved-deepfake-04-grad-cam-applied
 
 ```
 
